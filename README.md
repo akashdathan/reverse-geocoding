@@ -81,6 +81,7 @@ var config = {
     'latitude': 40.00403611111111,
     'longitude': 116.48485555555555,
     'language': 'zh-cn'
+    'key': 'asdfasdf' // Google auth key, to remove the limit of requests per day.
 };
 geocoding.location(config, (err, data) => {
 	console.log(err ? err : data);
